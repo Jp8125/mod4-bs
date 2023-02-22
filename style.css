@@ -9,7 +9,7 @@
 }
 #main-header .port-item {
   width: 25%;
-  font-size: 2em;
+  font-size: 1em;
 }
 #main-header .port-item:hover {
   opacity: 0.8;
