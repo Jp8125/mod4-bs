@@ -1,342 +1,560 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Bootstrap CSS v5.2.1 -->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.css" integrity="sha512-yq4CJHTd7nnaksoLci/2pIhFXy7uvAcM5hSP2DWvwRuT1FFTRhmsqhgCrHB2Mc6FrmxErBkiTH2yDZmuoRXunw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- <link rel="stylesheet" href="./style.css">
-</head>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.css"
+      integrity="sha512-yq4CJHTd7nnaksoLci/2pIhFXy7uvAcM5hSP2DWvwRuT1FFTRhmsqhgCrHB2Mc6FrmxErBkiTH2yDZmuoRXunw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
- <div class="container">
-  <header id="main-header">
-    <div class="row g-0">
-      <div class="col-lg-4 col-md-5">
-        <img src="./img/student.webp" alt="no image">
-      </div>
-      <div class="col-lg-8 col-md-7">
-        <div class="d-flex flex-column">
-          <div class="p-5 bg-dark text-white">
-            <div class="name d-flex flex-row justify-content-between align-items-center">
-              <h1 class="display-4">Jhon Doe</h1>
-              <div><i class="fa fa-twitter"></i></div>
-              <div><i class="fa fa-instagram"></i></div>
-              <div><i class="fa fa-facebook"></i></div>
-              <div><i class="fa fa-github"></i></div>
-            </div>
+  <body>
+    <div class="container">
+      <header id="main-header">
+        <div class="row g-0">
+          <div class="col-lg-4 col-md-5">
+            <img src="./img/student.webp" alt="no image" />
           </div>
-          <div class="p-4 bg-black">
-            frontend web devloper
-          </div>
-          <div>
-            <div class="d-flex flex-row text-white align-items-stretch text-center">
-              <div
-                  class="port-item p-4 bg-primary"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#home"
-                >
-                  <i class="fa fa-home d-block"></i>Home
-                </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="d-flex flex-column">
+              <div class="p-5 bg-dark text-white">
                 <div
-                  class="port-item p-4 bg-success"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#resume"
+                  class="
+                    name
+                    d-flex
+                    flex-row
+                    justify-content-between
+                    align-items-center
+                  "
                 >
-                  <i class="fa fa-graduation-cap d-block"></i>Resume
+                  <h1 class="display-4">Jhon Doe</h1>
+                  <div><i class="fa fa-twitter"></i></div>
+                  <div><i class="fa fa-instagram"></i></div>
+                  <div><i class="fa fa-facebook"></i></div>
+                  <div><i class="fa fa-github"></i></div>
                 </div>
+              </div>
+              <div class="p-4 bg-black">frontend web devloper</div>
+              <div>
                 <div
-                  class="port-item p-4 bg-warning"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#work"
+                  class="
+                    d-flex
+                    flex-row
+                    text-white
+                    align-items-stretch
+                    text-center
+                  "
                 >
-                  <i class="fa fa-folder-open d-block"></i>work
+                  <div
+                    class="port-item p-4 bg-primary"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#home"
+                  >
+                    <i class="fa fa-home d-block"></i>Home
+                  </div>
+                  <div
+                    class="port-item p-4 bg-success"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#resume"
+                  >
+                    <i class="fa fa-graduation-cap d-block"></i>Resume
+                  </div>
+                  <div
+                    class="port-item p-4 bg-warning"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#work"
+                  >
+                    <i class="fa fa-folder-open d-block"></i>work
+                  </div>
+                  <div
+                    class="port-item p-4 bg-danger"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#contact"
+                  >
+                    <i class="fa fa-envelope d-block"></i>contact
+                  </div>
                 </div>
-                <div
-                  class="port-item p-4 bg-danger"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#contact"
-                >
-                  <i class="fa fa-envelope d-block"></i>contact
-                </div>
-                   
+              </div>
             </div>
           </div>
         </div>
+      </header>
+      <div id="home" class="collapse show">
+        <div class="card card-body bg-primary text-white py-5">
+          <h2>welcome to my page</h2>
+        </div>
+        <div class="card card-body py-5">
+          <h3>my Skills</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            odio sed pariatur fugit eligendi voluptate sapiente delectus sint
+            repellat amet.
+          </p>
+          <hr />
+          <h4>HTML</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 100%"></div>
+          </div>
+          <h4>css</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 90%"></div>
+          </div>
+          <h4>PHP</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 70%"></div>
+          </div>
+          <h4>BOOTSRAP</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 90%"></div>
+          </div>
+          <h4>JAVASCRIPT</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" style="width: 80%"></div>
+          </div>
+        </div>
       </div>
-    </div>
-  </header>
-  <div id="home" class="collapse show">
-    <div class="card card-body bg-primary text-white py-5">
-      <h2>welcome to my page</h2>
-    </div>
-    <div class="card card-body py-5">
-      <h3>my Skills</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium odio sed pariatur fugit eligendi voluptate sapiente delectus sint repellat amet.</p>
-      <hr>
-      <h4>HTML</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:100%"></div>
-      </div>
-      <h4>css</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:90%"></div>
-      </div>
-      <h4>PHP</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:70%"></div>
-      </div>
-      <h4>BOOTSRAP</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:90%"></div>
-      </div>
-      <h4>JAVASCRIPT</h4>
-      <div class="progress mb-3">
-        <div class="progress-bar bg-success" style="width:80%"></div>
-      </div>
-    </div>
-  </div>
-  <div class="collapse" id="resume">
-    <div class="container border">
-      <div class="row">
-          <div class="col bg-success">
+      <div class="collapse" id="resume">
+        <div class="container border">
+          <div class="row">
+            <div class="col bg-success">
               <h1 class="display-1 text-center">Jay Prajapati</h1>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-4 bg-warning">
-            <img src="./im1.png" alt="no image found" class="m-auto">
-            <nav class="navbar navbar-expand-lg">
-              <img src="./" alt="">
-              <div class="container-fluid">
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navb" aria-controls="#navb" ariaexpanded="false"><span class="navbar-toggler-icon"></span></button>
-              <div class="collapse navbar-collapse" id="navb">
-                <ul class="  list-unstyled" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="EDU-tab" data-bs-toggle="tab" data-bs-target="#EDU" type="button" role="tab" aria-controls="EDU" aria-selected="true">Education</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="prj-tab" data-bs-toggle="tab" data-bs-target="#prj" type="button" role="tab" aria-controls="prj" aria-selected="false">Projects</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="obj-tab" data-bs-toggle="tab" data-bs-target="#obj" type="button" role="tab" aria-controls="obj" aria-selected="false">Objectives</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link " id="hb-tab" data-bs-toggle="tab" data-bs-target="#hb"  type="button" role="tab" aria-controls="hb" aria-selected="false">Hobbies</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="lang-tab" data-bs-toggle="tab" data-bs-target="#lang" type="button" role="tab" aria-controls="lang" aria-selected="false">Language</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="skl-tab" data-bs-toggle="tab" data-bs-target="#skl" type="button" role="tab" aria-controls="skl" aria-selected="false">Skills</a>
-                </li>
-                </ul>                            
-             </div>
             </div>
-            </nav>
           </div>
-          <div class="col-lg-8 bg-danger">
+          <div class="row">
+            <div class="col-lg-4 bg-success">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAMAAAAqJH57AAAAY1BMVEX///8aGhoAAAAYGBjf398WFhYcHBwREREKCgr8/Pzo6OhbW1v4+PhpaWnt7e0hISFFRUVxcXGdnZ2qqqqRkZEvLy+7u7t/f3+jo6POzs54eHiGhoYmJiY6OjpkZGSysrJSUlLNnJ5YAAADN0lEQVRoge2XaW+jMBCGzfjCxBDIwZGr/P9fuWODwUSVuirefFjNK7VqHIuHuaeMkUgkEolEIpFIJBKJRCKRSKQfZPDHFqKwzBjzYbborgBwvYkPc9kFQEolJcDlk1hjSuDZLCg/ib5A4GYq+6TVQnMkBrKUn4v1fTXZ+/v+MfJTbsj6+U9ppqrCn8VjS+YP95Wv66pKXd2i4Vi892IiH7dk+ZjP71jix0awhM3lBFhFCou3dZ+qxzvZu6PFEkcH5HBKxkVwYEzoWm/jXE/g+X14OnSxprJ+WrYpZ5/bjmSfy+twKBKRY5A3WqjY3fIojDNZrZdS9ZZaLw9V0LmTM0SdBL7cUbeS1eT+BILIwvzlR+RlOePOQDx55ZEX8kTkbJkOmcpLP5vZF4CWXGqYLGasjMnHROQmj0LYz4e2P6hcHXrrPxnWR8mQN4nIbZxhYiatvyeJdW5OaZhEB1Bqzqb7DLSi7XvT962w80kYI3jpkArMitonFDaxxjvXDN0TG9qN3bBtPbvB227LKesk1KnKGS2qOgRhT75YZ95w8H0SzlhdnOM3h8Fdspeju8S76udH/jUZzW5PfesfaTqYuhUMbJg8nMPd+Bds+1NbbOO/W9VQFYMj2zrkG1SsCu0DausvFZW/lAzdlli3wxnd3Q0jwny+SYTZOjQUGIcOnX0esM7LVKndXiGXXFUC3Jxc5oIv2mbpH/huUoGoFJc5XFOwfViVn4TYrFXUwV1P6eMlFOtpmqBKQ7fb4aZxocRn3hjzq8gyKTDBMM2jCeVWBIaFNn27u42FpQBLKHLtnGCb0e0CcFu9sHc9CCuXtzBuzTgVfPParGQuAMEL8rivn5xhbpvuOUNM1tM/NWW8GLnXC1uDcl7aoTD7dI0ZU+h1KIR5FA/HTGIATFjSdkb6MD/YJdjbhu9Xns1GJp+uhTSzu/N9c2MmKz1iVMV228UcOm0STF4xJHbUSckZvIx9xDHFys5fOouLKtNXa16hztKQfdjG7a6LgE2V+UtjsxR4MnKW63fON8rXxSkdmatvWVtFd3aT+S+1dyca4fcad5HFHu0ik0gkEolEIpFIJBKJRCKRSP+V/gAS5CIj/Gtm6wAAAABJRU5ErkJggg=="
+                alt="no image found"
+                class="m-auto"
+              />
+              <nav class="navbar navbar-expand-lg">
+                <img src="./" alt="" />
+                <div class="container-fluid">
+                  <button
+                    class="navbar-toggler"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navb"
+                    aria-controls="#navb"
+                    ariaexpanded="false"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navb">
+                    <ul class="list-unstyled" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="EDU-tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#EDU"
+                          type="button"
+                          role="tab"
+                          aria-controls="EDU"
+                          aria-selected="true"
+                          >Education</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="prj-tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#prj"
+                          type="button"
+                          role="tab"
+                          aria-controls="prj"
+                          aria-selected="false"
+                          >Projects</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="obj-tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#obj"
+                          type="button"
+                          role="tab"
+                          aria-controls="obj"
+                          aria-selected="false"
+                          >Objectives</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="hb-tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#hb"
+                          type="button"
+                          role="tab"
+                          aria-controls="hb"
+                          aria-selected="false"
+                          >Hobbies</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="lang-tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#lang"
+                          type="button"
+                          role="tab"
+                          aria-controls="lang"
+                          aria-selected="false"
+                          >Language</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="skl-tab"
+                          data-bs-toggle="tab"
+                          data-bs-target="#skl"
+                          type="button"
+                          role="tab"
+                          aria-controls="skl"
+                          aria-selected="false"
+                          >Skills</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="col-lg-8 bg-success">
               <div class="tab-content">
-               
-                  <div class="tab-pane" id="exp" role="tabpanel" aria-labelledby="exp-tab" >
-                      <h1>Experience</h1>
-                      <ol>
-                          <li>Trainee software engineer / fresher</li>
-                      </ol>
-                   </div>
-                 
-                        <div class="tab-pane" id="obj" role="tabpanel" aria-labelledby="obj-tab">
-                          <h1>Objectives</h1>
-                          <ol>
-                              <li>Become a Fullstack devloper</li>
-                              <li>Complete the internship</li>
-                              <li>fullfill the dreams</li>
-                              <li>improve soft skills</li>
-                          </ol>
-                       </div> 
-                       <div class="tab-pane" id="skl" role="tabpanel" aria-labelledby="skl-tab">
-                          <h1>skills</h1>
-                          <ol>
-                              <li>HTML</li>
-                              <li>CSS</li>
-                              <li>reactJS</li>
-                              <li>nodeJS</li>
-                              <li>Angular</li>
-                              <li>SQL</li>
-                          </ol>
-                      </div> 
-                      <div class="tab-pane" id="EDU" role="tabpanel" aria-labelledby="EDU-tab">
-                        <h1>Education</h1>
-                        <ol>
-                            
-                            <li>
-                                <h2>SSC</h2>
-                                completed ssc in 2017 from st xavier's high school,kalol
-                            </li>
-                            <li>
-                                <h2>HSC</h2>
-                                completed HSC in 2019 from Ananya Vidhyalaya,kalol
-                            </li>
-                            <li>
-                                <h2>College</h2>
-                                persuing BE in IT from V.G.E.C
-                            </li>
-                        </ol>
-                       </div>
-                   <div class="tab-pane" id="prj" role="tabpanel" aria-labelledby="prj-tab">
-                          
-                        <H1>PROJECTS</H1>
-                        <h4>FOODSITE</h4>    
-                        <ol>
-                            <li>created food website using html css php and mysql</li>
-                            <li>functionalities like add to cart,generate bil,check orders</li>
-                        </ol>
-                        <h4>PORTFOLIO</h4>
-                        <ol><LI>Portfolio created using reactJS during 15 day internship.</LI></ol>
-                        
-                      </div>
-                     <div class="tab-pane " id="lang" role="tabpanel" aria-labelledby="lang-tab">
-                        <h1>Languages for Communication</h1>
-                        <ol>
-                            <li>HINDI</li>
-                            <li>ENGLISH</li>
-                            <li>GUJRATI</li>
-                        </ol>
-            
-                     </div>
-                     
-                     <div class="tab-pane " id="hb" role="tabpanel" aria-labelledby="hb-tab">
-                          <h1>Hobbies</h1>
-                          <ol>
-                              <li>listening music</li>
-                              <li>exploring new tech</li>
-                              <li>reading news</li>
-                              
-                          </ol>
-                          
-                      </div>
+                <div
+                  class="tab-pane"
+                  id="exp"
+                  role="tabpanel"
+                  aria-labelledby="exp-tab"
+                >
+                  <h1>Experience</h1>
+                  <ol>
+                    <li>Trainee software engineer / fresher</li>
+                  </ol>
                 </div>
+
+                <div
+                  class="tab-pane"
+                  id="obj"
+                  role="tabpanel"
+                  aria-labelledby="obj-tab"
+                >
+                  <h1>Objectives</h1>
+                  <ol>
+                    <li>Become a Fullstack devloper</li>
+                    <li>Complete the internship</li>
+                    <li>fullfill the dreams</li>
+                    <li>improve soft skills</li>
+                  </ol>
                 </div>
+                <div
+                  class="tab-pane"
+                  id="skl"
+                  role="tabpanel"
+                  aria-labelledby="skl-tab"
+                >
+                  <h1>skills</h1>
+                  <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>reactJS</li>
+                    <li>nodeJS</li>
+                    <li>Angular</li>
+                    <li>SQL</li>
+                  </ol>
+                </div>
+                <div
+                  class="tab-pane"
+                  id="EDU"
+                  role="tabpanel"
+                  aria-labelledby="EDU-tab"
+                >
+                  <h1>Education</h1>
+                  <ol>
+                    <li>
+                      <h2>SSC</h2>
+                      completed ssc in 2017 from st xavier's high school,kalol
+                    </li>
+                    <li>
+                      <h2>HSC</h2>
+                      completed HSC in 2019 from Ananya Vidhyalaya,kalol
+                    </li>
+                    <li>
+                      <h2>College</h2>
+                      persuing BE in IT from V.G.E.C
+                    </li>
+                  </ol>
+                </div>
+                <div
+                  class="tab-pane"
+                  id="prj"
+                  role="tabpanel"
+                  aria-labelledby="prj-tab"
+                >
+                  <h1>PROJECTS</h1>
+                  <h4>FOODSITE</h4>
+                  <ol>
+                    <li>created food website using html css php and mysql</li>
+                    <li>
+                      functionalities like add to cart,generate bil,check orders
+                    </li>
+                  </ol>
+                  <h4>PORTFOLIO</h4>
+                  <ol>
+                    <li>
+                      Portfolio created using reactJS during 15 day internship.
+                    </li>
+                  </ol>
+                </div>
+                <div
+                  class="tab-pane"
+                  id="lang"
+                  role="tabpanel"
+                  aria-labelledby="lang-tab"
+                >
+                  <h1>Languages for Communication</h1>
+                  <ol>
+                    <li>HINDI</li>
+                    <li>ENGLISH</li>
+                    <li>GUJRATI</li>
+                  </ol>
+                </div>
+
+                <div
+                  class="tab-pane"
+                  id="hb"
+                  role="tabpanel"
+                  aria-labelledby="hb-tab"
+                >
+                  <h1>Hobbies</h1>
+                  <ol>
+                    <li>listening music</li>
+                    <li>exploring new tech</li>
+                    <li>reading news</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
-  
-  </div>
-  <div id="work" class="collapse show">
-    <div class="card card-body bg-warning text-white py-5">
-      <h2>my portfolio</h2>
-    </div>
-    <div class="card card-body py-5">
-      <h3>what have i built</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium odio sed pariatur fugit eligendi voluptate sapiente delectus sint repellat amet.</p>
-      <div class="row g-0">
-        <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image-251" data-bs-toggle="lightbox">
-          <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="no images" class="img-fluid">
-        </a>
-        </div>
-        <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image-251" data-bs-toggle="lightbox">
-            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="no images" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image-251" data-bs-toggle="lightbox">
-            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="no images" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image-251" data-bs-toggle="lightbox">
-            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="no images" class="img-fluid">
-          </a>
         </div>
       </div>
-      <div class="row g-0">
-        <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image-251" data-bs-toggle="lightbox">
-          <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="no images" class="img-fluid">
-        </a>
+      <div id="work" class="collapse show">
+        <div class="card card-body bg-warning text-white py-5">
+          <h2>my portfolio</h2>
         </div>
-        <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image-251" data-bs-toggle="lightbox">
-            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="no images" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image-251" data-bs-toggle="lightbox">
-            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="no images" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="https://unsplash.it/1200/768.jpg?image-251" data-bs-toggle="lightbox">
-            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" alt="no images" class="img-fluid">
-          </a>
+        <div class="card card-body py-5">
+          <h3>what have i built</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            odio sed pariatur fugit eligendi voluptate sapiente delectus sint
+            repellat amet.
+          </p>
+          <div class="row g-1">
+            <div class="col-md-3">
+              <a
+                href="https://unsplash.it/1200/768.jpg?image-251"
+                data-bs-toggle="lightbox"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+                  alt="no images"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://unsplash.it/1200/768.jpg?image-251"
+                data-bs-toggle="lightbox"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+                  alt="no images"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://unsplash.it/1200/768.jpg?image-251"
+                data-bs-toggle="lightbox"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+                  alt="no images"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://unsplash.it/1200/768.jpg?image-251"
+                data-bs-toggle="lightbox"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+                  alt="no images"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="row g-1 mt-2">
+            <div class="col-md-3">
+              <a
+                href="https://unsplash.it/1200/768.jpg?image-251"
+                data-bs-toggle="lightbox"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+                  alt="no images"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://unsplash.it/1200/768.jpg?image-251"
+                data-bs-toggle="lightbox"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+                  alt="no images"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://unsplash.it/1200/768.jpg?image-251"
+                data-bs-toggle="lightbox"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+                  alt="no images"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://unsplash.it/1200/768.jpg?image-251"
+                data-bs-toggle="lightbox"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+                  alt="no images"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div id="contact" class="collapse show">
-    <div class="card card-body bg-danger text-white py-5">
-      <h2>contact</h2>
-    </div>
-    <div class="card card-body py-5">
-     <h3>Get In Touch</h3>
-     <form>
-      <div class="form-group">
-        <div class="input-group input-group-lg">
-          <span class="input-group-addon bg-danger text-white">
-            <i class="fa fa-user"></i>
-          </span>
-          <input type="text" class="form-control bg-dark text-white" placeholder="name">
+      <div id="contact" class="collapse show">
+        <div class="card card-body bg-danger text-white py-5">
+          <h2>contact</h2>
         </div>
-       </div>
-       <div class="form-group">
-        <div class="input-group input-group-lg">
-          <span class="input-group-addon bg-danger text-white">
-            <i class="fa fa-envelope"></i>
-          </span>
-          <input type="email" class="form-control bg-dark text-white" placeholder="name@gmail.com">
+        <div class="card card-body py-5">
+          <h3>Get In Touch</h3>
+          <form>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon bg-danger text-white">
+                  <i class="fa fa-user"></i>
+                </span>
+                <input
+                  type="text"
+                  class="form-control bg-dark text-white"
+                  placeholder="name"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon bg-danger text-white">
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <input
+                  type="email"
+                  class="form-control bg-dark text-white"
+                  placeholder="name@gmail.com"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon bg-danger text-white">
+                  <i class="fa fa-pencil"></i>
+                </span>
+                <textarea
+                  type="text"
+                  class="form-control bg-dark text-white"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="submit"
+                class="btn btn-danger btn-block btn-lg"
+              />
+            </div>
+          </form>
         </div>
-       </div>
-       <div class="form-group">
-        <div class="input-group input-group-lg">
-          <span class="input-group-addon bg-danger text-white">
-            <i class="fa fa-pencil"></i>
-          </span>
-          <textarea type="text" class="form-control bg-dark text-white" placeholder="Message"></textarea>
-        </div>
-        <input type="submit" value="submit" class="btn btn-danger btn-block btn-lg">
-       </div>
-      
-     </form>
-    
-    </div>
-  </div>
-  <footer id="main-footer" class="p-5 bg-dark">
-    <div class="row">
-      <div class="col-md-6">
-        <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud"></i>Download Resume</a>
       </div>
+      <footer id="main-footer" class="p-5 bg-dark">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-outline-light"
+              ><i class="fa fa-cloud"></i>Download Resume</a
+            >
+          </div>
+        </div>
+      </footer>
     </div>
-  </footer>
- </div>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.min.js" integrity="sha512-pG6Jpi0rC+Tc4UBLolT53rjjfGNuHBgEGqe6E29doS/zTJhSI9mGIwkiq+wSP1InaQs61vpQ+UhNgTUhyyYGDw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.min.js"
+      integrity="sha512-pG6Jpi0rC+Tc4UBLolT53rjjfGNuHBgEGqe6E29doS/zTJhSI9mGIwkiq+wSP1InaQs61vpQ+UhNgTUhyyYGDw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>
